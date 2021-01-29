@@ -2,235 +2,130 @@
   <head>
     <!-- meta viewport 라고 검색 -->
     <meta name="viewport" content="initial-scale=1.0, width=device-width, use-scalable=no">
-
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
       body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #282828;
+        font-family: 'poppins',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+        color: #131313;
         text-align: center;
         margin: auto;
-
+        background-color:#131313;
       }
-
-      #contents {
-        margin: 60px auto;
-        text-align: center;
-        max-width: 600px;
-      }
-
-      #img-sarah {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
-        height: 200px;
-        border-radius: 100px;
-      }
-
-      #img-suyeol {
-        margin: 20px 0;
-        width: 50px;
-        height: 50px;
-        border-radius: 25px;
-      }
-
       h1 {
-        margin-top: 30px;
-        margin-bottom: 0;
-        color: #282828;
-        font-weight: 600;
-      }
-
-      h2 {
-        margin: 10px;
-        font-weight: 200;
-        color: #9d9da8;
-      }
-
-      h4 {
-        color: #282828;
+        margin:0;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 144px;
+      }
+      h2 {
+        margin:0;
+        font-weight: 400;
+        font-size: 32px;
       }
 
-      .website-item {
-        margin: 15px;
-        font-weight: 300;
-        color:#f78d51;
+      h3 {
+        margin:0;
+        margin-inline-start: 500px;
+        font-weight: 400;
+        font-size: 32px;
       }
 
-      #website {
-        margin:50px;
+
+      .text {
+        margin-top: 300px;
+        margin-bottom: 400px;
       }
 
-      .cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: stretch;
-        margin-bottom: 40px;
+      .text:hover{
+        color: #ffffff;
+        transition: 0.6s;
       }
 
-      .card {
-        /*display: inline-block;*/
-
-        width: 270px;
-        text-align: left;
-        transition: 0.3s;
-        margin:10px;
+      #text1 {
+        margin-top: 600px ;
       }
 
-      .card:hover {
-        border-radius: 8px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        width: 280px;
+      .slide {
+        opacity: 0;
       }
 
-      .card img {
-        border-radius: 8px;
-        width: 100%;
-      }
 
-      #div-advise {
-        margin: 60px 0px;
-        font-weight: 200;
-        font-size: 14px;
-      }
-
-      #div-advise a {
-        color: #5193f7;
-      }
-
-      .samples {
-        /*margin : 60px 0;
-        text-align: center;*/
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: stretch;
-      }
-
-      .sample {
-        /* Add shadows to create the "card" effect */
-        border-radius: 10px;
-        width: 300px;
-        margin: 15px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
+      .slide:hover {
+        opacity: 100%;
         transition: 0.3s;
       }
 
-        /* On mouse-over, add a deeper shadow */
-      .sample:hover {
-          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
-          width: 320px;
-      }
-
-        /* Add some padding inside the card container */
-      .container {
-          padding: 2px 16px;
-      }
-
-      .sample {
-        display: inline-block;
-        width: 300px;
-      }
-
-      .sample img {
-        border-radius: 10px 10px 0 0 ;
-      }
-
-      .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: stretch;
-        width: 100%-80px;
-        height: 220px;
-        background-color: #111111;
-        padding: 40px;
-        color: white;
-        text-align: left;
-      }
-
-      p {
-        font-size: 15px;
-      }
-      .samples {
-          text-align: left;
-        }
-
-        h4 {
-          text-align: center;
-        }
 
 
 
-      }
+
+
+
 
     </style>
+<title>
+  2021 Workshop
+</title>
+</head>
 
-    <title>
-      Sarah Park
-    </title>
-  </head>
+<body>
 
-  <body>
+  <div class="text">
+    <h1>
+      2021 Workshop
+    </h1>
+    <h2>
+      @teamApproach
+    </h2>
+  </div>
+  <div class="text">
+    <h1>
+      🎨Design
+    </h1>
+  </div>
+  <div class="slide">
+    <div class="slideItem"><img src="image/pocketlesson_title.png" style="width: 100%; vertical-align: middle">
+    </div>/div>
 
-    <div id="contents">
-      <img id="img-sarah" src="images/profile-photo-square.jpg">
-      <h1>Seiyoung Park</h1>
-      <h2>Product Designer</h2>
-      <div id="website">
-        <a class="website-item" href="https://brunch.co.kr/@sei0" target="_blank">Brunch</a>
-        <a class="website-item" href="https://dribbble.com/Sarah_park" target="_blank">Dribbble</a>
-      </div>
-      <div class="cards">
-        <a class="card" href="https://dribbble.com/shots/10496772-kiwi-application" target="_blank"><img src="images/kiwi-01.jpg"></a>
-        <a class="card" href="https://dribbble.com/shots/10496753-kiwi-application" target="_blank"><img src="images/kiwi-02.jpg"></a>
-        <a class="card" href="https://dribbble.com/shots/11486538-Design-Concept-for-Co-working-Space-Webpage" target="_blank"><img src="images/cooms.png"></a>
-        <a class="card" href="https://dribbble.com/shots/10822797-KOFFEE-coffee-service-onboarding-design-concept" target="_blank"><img src="images/koffee.png"></a>
-        <a class="card" href="https://dribbble.com/shots/11479831-Bank-app-Concept-Design" target="_blank"><img src="images/bankapp.png"></a>
-        <a class="card" href="https://dribbble.com/shots/10703932-Perfume-Bath-Lab" target="_blank"><img src="images/dribbble_PBL.jpg"></a>
-      </div>
-      <div class="samples">
-          <a class="sample" href="https://dribbble.com/shots/10496772-kiwi-application" target="_blank"><img src="images/kiwi-01.jpg" alt="Avatar" style="width:100%">
-            <div class="container">
-              <h4>Kiwi Applicaiton</h4>
-            </div>
-          </a>
-          <a class="sample" href="https://dribbble.com/shots/11486538-Design-Concept-for-Co-working-Space-Webpage" target="_blank"><img src="images/cooms.png" alt="Avatar" style="width:100%">
-            <div class="container">
-              <h4>Cooms</h4>
-            </div>
-          </a>
-          <a class="sample" href="https://dribbble.com/shots/10822797-KOFFEE-coffee-service-onboarding-design-concept" target="_blank"><img src="images/koffee.png" alt="Avatar" style="width:100%">
-            <div class="container">
-              <h4>Koffee</h4>
-            </div>
-          </a>
-        </a>
-        <a class="sample" href="https://dribbble.com/shots/11584309-Daily-UI" target="_blank"><img src="images/commerce2x.png" alt="Avatar" style="width:100%">
-          <div class="container">
-            <h4>Commerce App</h4>
-          </div>
-        </a>
-      </div>
-    </div>
+  <div class="text">
+    <h1>
+      💫Shortcut
+    </h1>
+    <h3>
+      to destination⛳️
+    </h3>
+  </div>
 
+  <div class="slide">
+    <div class="slideItem"><img src="image/symbol.png" style="width: 100%; vertical-align: middle"></div>
+  </div>
 
-      <div id="div-advise">
-        <img id="img-suyeol" src="images/jeon_suyeol.jpg">
-        <div>
-          Advised by <a href="https://github.com/devxoul" target="_blank">Suyeol Jeon</a>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <p>Fig And Tomato</p>
-      <p>© 2020 Seiyoung Park</p>
+  <div class="text">
+    <h1>
+      👱🏼‍♀️Connect👨🏻‍🦱
+    </h1>
+    <h2>
+      through video🖼
+    </h2>
+  </div>
+    <div class="slideItem"><img src="image/road.png" style="width: 100%; vertical-align: middle"></div>
 
-      <p>seii0kor@gmail.com</p>
-    </div>
-  </body>
+    <div class="text">
+      <h1>
+        🎨Team Design
+      </h1>
+
+      <div id="text1" class="text">
+        <h2>
+           team slogan
+        </h2>
+        <h1>
+          Make<br>
+          things<br>
+          Simple<br>
+        </h1>
+</body>
 
 </html>
